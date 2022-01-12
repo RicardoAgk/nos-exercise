@@ -1,0 +1,66 @@
+.navbar-brand {
+    max-width: 80%;
+}
+
+.head-rectangle {
+    background: linear-gradient(91.82deg, #35363E 27.66%, #D52B1E 86.25%);
+    left: 0px;
+    min-height: 120px;
+    top: 124px;
+    width: 100%;
+}
+
+.sharp-corners {
+    border-radius: 0%;
+}
+
+.bg-light-grey {
+    background: #EFEFF1;
+    border-color: #EFEFF1;
+}
+
+.footer {
+    background: white;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.05);
+    height: 96px;
+    margin-top: 20px;
+    position: sticky;
+}
+
+.footer-button {
+    background: #1E1F27;
+    bottom: 24px;
+    color: white;
+    height: 48px;
+    left: 70%;
+    position: absolute;
+    width: 159px;
+}
+
+.show-on-desktop {
+    display: none;
+}
+
+.nif-error-message {
+    visibility: hidden;
+    color: #D52B1E;
+}
+
+.nif-error-message.visible {
+    display: block;
+}
+
+
+@media (min-width: 992px) { 
+    .two-thirds {
+        max-width: 70%
+    }
+
+    .one-third {
+        max-width: 35%;
+    }
+
+    .show-on-desktop {
+        display: inline;
+    }
+}
